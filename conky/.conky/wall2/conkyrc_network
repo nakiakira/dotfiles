@@ -1,0 +1,43 @@
+# Created by nakiakira
+
+# Default Fonts
+use_xft yes
+override_utf8_locale yes
+uppercase no
+#font :size=8
+
+# Performance Settings
+update_interval 1
+total_run_times 0
+double_buffer yes
+no_buffers yes
+cpu_avg_samples 2
+net_avg_samples 2
+text_buffer_size 1024
+
+# Window Settings
+own_window yes
+own_window_transparent yes
+own_window_type override #desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_colour blue
+
+# Window border
+border_margin 4
+border_width 2
+draw_graph_borders no
+draw_borders no
+draw_shades no
+draw_outline no
+
+# Default Color
+default_color e0e0e0
+
+# Size and position
+gap_x 25
+gap_y 180
+alignment bottom_left
+
+TEXT
+${font :pixelsize=25}${time %A} ${color ffffff}${font :pixelsize=35}${time %d}${font :pixelsize=30}
+$alignc${time %b} ${font :pixelsize=25}${color e0e0e0}${time %Y}
